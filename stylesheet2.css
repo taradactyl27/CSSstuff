@@ -1,0 +1,52 @@
+.extreme{
+    text-align: center;
+    color: #0055FF;
+    text-transform: capitalize;
+    text-shadow: 1px 1px black;
+
+
+
+}
+
+
+.navzone{
+    
+    text-transform: capitalize;
+
+}
+
+h3{
+    color: #FC7616;
+    text-shadow: 0.5px 0.5px black;
+    font-size: 25px;
+    border-bottom: solid black;
+
+}
+body{
+
+    background-color: #60ffbd;
+
+
+}
+
+.content{
+
+    text-align: justify;
+}
+
+.prose{
+    
+    font-size: 15px;
+    
+}
+
+
+h2{
+    text-transform: capitalize;
+    color: #FC7616;
+    text-shadow: 0.5px 0.5px black;
+    font-size: 25px;
+    border-bottom: solid black;
+
+
+}

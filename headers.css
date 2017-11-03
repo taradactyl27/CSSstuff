@@ -1,7 +1,7 @@
 h1{
     text-font: 20px;
     text-align: center;
-    color:#FF00FF;
+    animation: textchange 10s infinite;
     text-shadow: 1px 1px black;
     font: Comic Sans;
     border-style: inset;
@@ -10,32 +10,42 @@ h1{
 
 h2{
 
-    color:#FF00FF;
+    animation: textchange 10s infinite;
     text-shadow: 1px 1px black;
     border-bottom: 2px solid;
     border-color:black;
 }
 
+a{
+    animation: textchange 10s infinite;
+    text-font: 25px;
+    text-shadow: 1px 1px black;
 
+}
 
 h3{
 
-    color:#FF00FF;
+    animation: textchange 10s infinite;
     text-shadow: 1px 1px black;
     border-style: outset;
     border-color:black;
 }
 
 body{
-    animation: mymove 0.1s infinite;
+    animation: backchange 10s infinite;
 }
 
-@keyframes mymove {
-    from {background-color: red;}
-    to {background-color: blue;}
+@keyframes textchange{
+    0% {color: yellow;}
+    100% {color: black;}
+}
+@keyframes backchange {
+    0% {background-color: black;}
+    100% {background-color: yellow;}
 }
 p {
    
  text-align: center;
- animation: mymove 0.8s infinite;
+ animation: textchange 10s infinite;
+ text-shadow: 1px 1px black;
 }
