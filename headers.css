@@ -12,7 +12,7 @@ h2{
 
     color:#FF00FF;
     text-shadow: 1px 1px black;
-    border-style: outset;
+    border-bottom: 2px solid;
     border-color:black;
 }
 
@@ -27,14 +27,15 @@ h3{
 }
 
 body{
-    
-    background-image:url("https://static.comicvine.com/uploads/scale_small/0/77/112756-151788-jabba-the-hutt.jpg");
-    text-shadow: 1px 1px black;
+    animation: mymove 0.1s infinite;
 }
 
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
 p {
-    
-    color:#FF00FF;
-    text-align: center;
-
+   
+ text-align: center;
+ animation: mymove 0.8s infinite;
 }
